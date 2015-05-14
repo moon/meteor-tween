@@ -5,7 +5,7 @@
 Package.describe({
   name: 'moonco:tween',
   summary: 'Moon tweening engine',
-  version: '0.0.1',
+  version: '0.0.2',
   git: 'https://github.com/moon/meteor-tween'
 });
 
