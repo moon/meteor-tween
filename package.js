@@ -5,7 +5,7 @@
 Package.describe({
   name: 'moonco:tween',
   summary: 'Moon tweening engine',
-  version: '0.0.2',
+  version: '0.0.3',
   git: 'https://github.com/moon/meteor-tween'
 });
 
@@ -24,14 +24,6 @@ Package.onUse(function(api) {
   api.export('Tween');
 
   //------------------------------
-  // Dependancies
-  //------------------------------
-
-  api.use([
-
-  ]);
-
-  //------------------------------
   // Files
   //------------------------------
 
@@ -39,6 +31,6 @@ Package.onUse(function(api) {
 
     'tween/tween.js'
 
-  ]);
+  ], 'client');
 
 });
